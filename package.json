@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "type-check": "tsc",
-    "deploy:dev": "serverless deploy"
+    "deploy": "serverless deploy"
   },
   "dependencies": {
     "next": "^10.2.0",
