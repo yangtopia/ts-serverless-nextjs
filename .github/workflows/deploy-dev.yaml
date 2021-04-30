@@ -23,7 +23,7 @@ jobs:
           node-version: '12.x'
 
       - name: Install Dependencies
-        run: npm install
+        run: yarn install
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
@@ -34,4 +34,4 @@ jobs:
           mask-aws-account-id: true
 
       - name: Build
-        run: npm run deploy
+        run: yarn deploy
